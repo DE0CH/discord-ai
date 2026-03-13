@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "chat": "tsx chat.ts"
+    "chat": "tsx --env-file=.env chat.ts"
   },
   "devDependencies": {
+    "@types/node": "^22.10.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }
